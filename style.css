@@ -7,20 +7,21 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
+    color: white;
 }
-
-
 
 .left {
     width: 25vw;
     padding: 5px;
-    background-color: black;
     color: white;
 }
 
 .right {
     width: 75vw;
+    background-color: black;
+    color: white;
+    margin: 8px 0;
 }
 
 .home ul li {
@@ -30,9 +31,10 @@ body {
     list-style: none;
     padding-top: 20px;
     font-weight: bold;
-    
+
 }
-.heading{
+
+.heading {
     display: flex;
     gap: 15px;
     width: 100%;
@@ -42,15 +44,17 @@ body {
     align-items: center;
 
 }
+
 .heading img {
     width: 25px;
 }
 
-.library{
+.library {
     min-height: 73vh;
     position: relative;
 }
-.footer{
+
+.footer {
     display: flex;
     font-size: 13px;
     color: grey;
@@ -59,7 +63,23 @@ body {
     bottom: 0;
     flex-wrap: wrap;
 }
+
 .footer a {
     color: grey;
     text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34 34 34);
+}
+.header>* {
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    width: 60px;
+    gap: 10px;
 }
