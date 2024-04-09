@@ -40,3 +40,22 @@
 .P1 {
     padding: 10px;
 }
+
+/* For WebKit/Blink Browsers */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Color of the scrollbar thumb on hover */
+  }
+
