@@ -75,15 +75,18 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(34 34 34);
+    height: 72px;
 }
+
 .header>* {
     padding: 5px;
 }
 
-.spotifyPlaylist{
+.spotifyPlaylist {
     padding: 10px 25px;
 }
-.cardContainer{
+
+.cardContainer {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -92,20 +95,59 @@ body {
     max-height: 65vh;
     border-radius: 10px;
 }
-.spotifyPlaylist .card{
+
+.spotifyPlaylist .card {
     width: 185px;
     padding: 15px;
     background-color: #252525;
     border-radius: 9px;
     position: relative;
 }
-.card img{
+
+.card img {
     width: 100%;
     object-fit: contain;
 }
+
 .play {
     width: 45px;
     position: absolute;
     top: 140px;
     right: 25px;
+
+}
+
+.btns>* {
+    padding: 0 12px;
+}
+.signupbtn {
+    background-color: #252525;
+    color: #807777;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signupbtn:hover {
+    font-size: 17px;
+    color: white;
+}
+
+.loginbtn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 108px; 
+    cursor: pointer;  
+    border: none;
+}
+
+.loginbtn:hover{
+    font-size: 18px;
+    font-weight: bold;
 }
