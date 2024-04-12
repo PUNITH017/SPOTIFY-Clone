@@ -12,13 +12,13 @@ body {
 }
 
 .left {
-    width: 20vw;
+    width: 24vw;
     padding: 5px;
     color: white;
 }
 
 .right {
-    width: 80vw;
+    width: 75vw;
     background-color: black;
     color: white;
     margin: 8px 0;
@@ -57,9 +57,9 @@ body {
 
 .footer {
     display: flex;
-    font-size: 13px;
+    font-size: 10px;
     color: grey;
-    gap: 15px;
+    gap: 10px;
     position: absolute;
     bottom: 0;
     flex-wrap: wrap;
@@ -162,12 +162,12 @@ body {
 }
 
 .playbar{
-    background-color: #61677A;
-    position: absolute;
-    bottom: 20px;
-    width: 91.5%;
-    padding: 22px;
-    border-radius: 19px;
+    background-color: #76ABAE;
+    position: fixed;
+    bottom: 15px;
+    width: 69vw;
+    padding: 12px;
+    border-radius: 50px;
 }
 
 .songbtn{
@@ -177,4 +177,39 @@ body {
 }
 .songbtn img{
     width: 20px;
+}
+.songList{
+    height: 350px;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+.songList ul {
+    padding:  0px 8px;
+    
+}
+.songList ul li{
+    list-style-type: decimal;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    cursor: pointer;
+    padding: 10px 8px;
+    margin: 12px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.songList ul li img{
+    width: 22px;
+}
+.songInfo{
+    font-size: small;
+    width: 344px;
+}
+.playnow{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
 }
