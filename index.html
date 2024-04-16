@@ -10,9 +10,12 @@
   <body>
     <div class="container flex bg-black">
       <div class="left">
+        <div class="close">
+          <img class="invert" src="/close.svg" alt="">
+        </div>
         <div class="home bg-grey rounded M1 P1">
           <div class="logo">
-            <img class="invert" src="/spotifylg.svg" alt="LOGO" />
+            <img class="invert" width="110px" src="/spotifylg.svg" alt="LOGO" />
           </div>
           <ul>
             <li><img class="invert" src="/Home.svg" alt="Home" />Home</li>
@@ -62,81 +65,15 @@
       <div class="right bg-grey rounded">
         <div class="header">
           <div class="nav">
-            <svg
-              data-icon-name="left-circle"
-              data-style="line"
-              icon_origin_id="11976"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              id="left-circle"
-              class="icon line"
-              width="48"
-              height="48"
-            >
-              <circle
-                style="
-                  fill: none;
-                  stroke: rgb(0, 0, 0);
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                  stroke-width: 0.75;
-                "
-                r="9"
-                cy="12"
-                cx="12"
-                id="primary"
-              ></circle>
-              <polyline
-                style="
-                  fill: none;
-                  stroke: rgb(255, 255, 255);
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                  stroke-width: 0.75;
-                "
-                points="13 9 10 12 13 15"
-                data-name="primary"
-                id="primary-2"
-              ></polyline>
-            </svg>
-
-            <svg
-              data-icon-name="right-circle"
-              data-style="line"
-              icon_origin_id="12044"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              id="right-circle"
-              class="icon line"
-              width="48"
-              height="48"
-            >
-              <circle
-                style="
-                  fill: none;
-                  stroke: rgb(0, 0, 0);
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                  stroke-width: 0.75;
-                "
-                r="9"
-                cy="12"
-                cx="12"
-                id="primary"
-              ></circle>
-              <polyline
-                style="
-                  fill: none;
-                  stroke: rgb(255, 255, 255);
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                  stroke-width: 0.75;
-                "
-                points="11 15 14 12 11 9"
-                data-name="primary"
-                id="primary-2"
-              ></polyline>
-            </svg>
+           <div class="hamburgerContainer">
+            <img class="hamburger" src="/PLAYLIST IMG/Hamburger.svg" alt="">
+            
+            <div class="LRicon">
+              <img class="leftright" src="/topLeft.svg" alt="">
+              <img class="leftright" src="/topRight.svg" alt="">
+             </div>
+            
+           </div>
           </div>
           <div class="btns">
             <button class="signupbtn">Sign up</button>
@@ -173,7 +110,7 @@
                 <img id="play" src="/PLAYLIST IMG/play.svg" alt="" />
                 <img id="next" src="/PLAYLIST IMG/Next.svg" alt="" />
               </div>
-              <div class="songTimer">time duration</div>
+              <div class="songTimer"></div>
             </div>
           </div>
         </div>
