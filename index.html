@@ -29,7 +29,9 @@
             <h2>Your Library</h2>
           </div>
           <div class="songList">
-            <ul></ul>
+            <ul>
+              
+            </ul>
           </div>
 
           <div class="footer">
@@ -83,7 +85,7 @@
         <div class="spotifyPlaylist">
           <h1>Spotify-Playlist</h1>
           <div class="cardContainer">
-            <div class="card">
+            <div data-folder="cs" class="card">
               <div class="play">
                 <img src="/PLAYLIST IMG/openplaylist.svg" alt="" />
               </div>
@@ -92,11 +94,15 @@
               <p>Hit to boost your moodzs</p>
             </div>
 
-            <div class="card">
+            <div data-folder="SSCLN" class="card">
+              <div class="play">
+                <img src="/PLAYLIST IMG/openplaylist.svg" alt="" />
+              </div>
               <img src="/PLAYLIST IMG/CD.jpg" alt="img" />
               <h2>Happy Hitz</h2>
-              <p>Hit to boost your moods</p>
+              <p>Hit to boost your moodzs</p>
             </div>
+
           </div>
 
           <div class="playbar">
@@ -104,13 +110,23 @@
               <div class="circle"></div>
             </div>
             <div class="songContent">
-              <div class="songName">song name</div>
+              <div class="songName"></div>
               <div class="songbtn">
                 <img id="previous" src="/PLAYLIST IMG/previous.svg" alt="" />
                 <img id="play" src="/PLAYLIST IMG/play.svg" alt="" />
                 <img id="next" src="/PLAYLIST IMG/Next.svg" alt="" />
               </div>
-              <div class="songTimer"></div>
+              <div class="timeVol">
+                <div class="songTimer"></div>
+                <div class="volume">
+                  <img width="25 px" src="/volume.svg" alt="">
+                  <div class="range">
+                    <input type="range" name="volume">
+                  </div>
+                </div>
+              </div>
+              
+              
             </div>
           </div>
         </div>
