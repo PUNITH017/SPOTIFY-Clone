@@ -12,6 +12,9 @@ body {
     background-color: black;
     color: white;
 }
+.home{
+    margin-bottom: 10px;
+}
 
 .left {
     width: 24vw;
@@ -31,7 +34,7 @@ body {
     width: 75vw;
     background-color: black;
     color: white;
-    margin: 8px 0;
+    margin: 6px 0;
     position: relative;
 }
 
@@ -87,6 +90,8 @@ body {
     align-items: center;
     background-color: rgb(34 34 34);
     height: 72px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .header>* {
@@ -144,18 +149,19 @@ body {
 
 .cardContainer {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     margin: 17px 10px;
-    overflow-y: auto;
+    overflow-y: scroll;
     border-radius: 10px;
+    max-height: 60vh;
 }
 
 .card {
-    width: 185px;
+    width: 172px;
     padding: 15px;
     background-color: #252525;
-    border-radius: 9px;
+    border-radius: 10px;
     position: relative;
     transition: all .3s;
     cursor: pointer;
@@ -177,11 +183,9 @@ body {
 .play {
     width: 45px;
     position: absolute;
-    top: 168px;
-    right: 17px;
     padding: 4px;
-    top: 140px;
-    right: 25px;
+    top: 146px;
+    right: 21px;
     opacity: var(--a);
     transition: all .4s ease-out;
 
@@ -335,6 +339,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
+}
+.range input{
+    cursor: pointer;
 }
 
 @media (max-width: 950px) {
@@ -432,6 +440,37 @@ body {
     }
 }
 
-@media (max-width : 400px){
+
+/* @media (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
+
+    .header>* {
+        padding: 2px;
+    }
+
+    .buttons>* {
+        margin: 0 6px;
+    }
+
+    .header{
+        padding: 7px;
+    }
+
+    .spotifyPlaylists h1 {
+        padding: 4px;
+    }
+
+    .library{
+        height: 85vh;
+    }
+
+    .left{ 
+        width: 100vw;
+    }
+
+ 
+
     
-}
+} */
